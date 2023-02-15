@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+}
+
+button {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 30px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
