@@ -1,0 +1,7 @@
+.students {
+    display: flex;
+}
+
+.student {
+    display: none;
+}
