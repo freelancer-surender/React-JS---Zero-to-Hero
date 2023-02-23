@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.counter {
+  font-size: 50px;
+  font-weight: bold;
+  color: darkred;
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 20px;
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+  background-color: darkred;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(253, 179, 179);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:active {
+  box-shadow: none;
+}
