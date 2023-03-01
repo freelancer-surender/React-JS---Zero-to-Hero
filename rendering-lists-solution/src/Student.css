@@ -1,0 +1,42 @@
+.student {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.name {
+  width: 250px;
+  text-align: left;
+}
+
+.age {
+  width: 100px;
+  text-align: center;
+}
+
+.country {
+  width: 250px;
+  text-align: left;
+}
+
+.action {
+  width: 100px;
+  text-align: center;
+}
+
+.deleteBtn {
+    background-color: #0f3d4a;
+    color: #fff;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
