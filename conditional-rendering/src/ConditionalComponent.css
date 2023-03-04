@@ -1,0 +1,61 @@
+h1 {
+    color: #61fbdb;
+}
+
+.btn-container {
+    margin-top: 50px;
+}
+
+.btn-container button {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid white;
+}
+
+.btn-container button:active {
+    box-shadow: none;
+}
+
+.btn-container button.active {
+    border: 2px solid blue;
+}
+
+.redBtn {
+    background-color: red;
+}
+
+.greenBtn {
+    background-color: green;
+}
+
+.box-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.redBox {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: red;
+    margin: 20px;
+}
+
+.greenBox {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: green;
+    margin: 20px;
+}
