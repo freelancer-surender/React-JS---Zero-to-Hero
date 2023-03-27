@@ -1,0 +1,36 @@
+.product-container {
+    margin-top: 20px;
+}
+
+.product {
+    width: 400px;
+    float: left;
+    margin: 20px;
+    border: 1px solid #ffae00;
+    box-shadow: 5px 5px 5px #f1f1f1;
+}
+
+.product-img {
+    width: 398px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.product-name {
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.product-action {
+    padding: 15px 20px;
+}
+
+button {
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #ffae00;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 5px;
+}

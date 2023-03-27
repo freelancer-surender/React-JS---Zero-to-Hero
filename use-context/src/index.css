@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 40px;
+}
+
+.parent {
+  text-align: center;
+  width: 1450px;
+  height: 600px;  
+  background-color: #66b5ed;
+  padding: 20px 50px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.children-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.child {
+  width: 600px;
+  height: 400px; 
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.child.first {
+  background-color: #ef5cb4;
+}
+
+.child.second {
+  background-color: #259337;
+}
+
+.grandchild {
+  width: 500px;
+  height: 200px; 
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.grandchild.first {
+  background-color: #fba0d7;
+}
+
+.grandchild.second {
+  background-color: #82db91;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #670241;
+  color: white;
+  margin-top: 30px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+
+.childValue {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+input {
+  padding: 7px;
+  border: 0px;
+  outline: none;  
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.message {
+  background-color: #fff;
+  color: green;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor {
+  color: red;
+}
