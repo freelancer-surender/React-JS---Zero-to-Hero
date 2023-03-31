@@ -1,0 +1,63 @@
+.form-container {
+  width: 450px;
+  height: 585px;
+  padding: 40px;
+  margin: 20px auto;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+input, select {
+  font-size: 20px !important;
+  border: 1px solid #f1f1f1;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.req {
+  color: red;
+  font-size: 12px;
+}
+.form-group {
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 75px;
+  color: red;
+  font-size: 14px;
+}
+
+.special {
+  top: 30px;
+}
+
+.err label {
+  color: red;
+}
+
+.err input {
+  border: 1px solid red;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 30px;
+  width: 85px;
+  font-weight: 500;
+}
+
+.btn-default {
+  color: blue;    
+}
