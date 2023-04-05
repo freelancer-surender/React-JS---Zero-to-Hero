@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation in non SPA</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .nav {
+        height: 60px;
+        display: flex;
+        background-color: rgb(20, 20, 20);
+        color: rgb(218, 252, 123);
+      }
+      .nav a {
+        color: rgb(218, 252, 123);
+        text-decoration: none;
+      }
+      .nav-item {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .main-container {
+        height: calc(100vh - 60px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 46px;
+        font-weight: bold;
+      }
+      .about {
+        background-color: rgb(152, 253, 253);
+      }
+      .contact {
+        background-color: rgb(123, 252, 125);
+      }
+      .product {
+        background-color: rgb(253, 152, 214);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-item">
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-item">
+        <a href="product.html">Product</a>
+      </div>
+      <div class="nav-item">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="main-container about">About</div>
+  </body>
+</html>
