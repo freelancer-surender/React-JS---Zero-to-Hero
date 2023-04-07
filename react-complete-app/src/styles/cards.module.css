@@ -1,0 +1,56 @@
+.cardsContainer {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+}
+
+.card img {
+  position: absolute;
+}
+
+.mango {
+  height: 200px;
+  bottom: -10px;
+  right: 20px;
+}
+
+.banana {
+  height: 170px;
+  bottom: 20px;
+  right: 0px;
+}
+
+.veg {
+  height: 130px;
+  bottom: 30px;
+  right: 20px;
+}
+
+.pink {
+  background-color: #ff81c8;
+}
+
+.orange {
+  background-color: #f9bb4a;
+}
+
+.blue {
+  background-color: #84e9fb;
+}
+
+.caption {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #101010;
+  letter-spacing: 3px;
+}

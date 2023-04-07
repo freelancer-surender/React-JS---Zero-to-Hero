@@ -1,0 +1,136 @@
+.headerContainer {
+  background-color: #2a2a2a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  position: relative;
+}
+
+.logo {
+  font-family: "Righteous", cursive;
+  margin-left: 50px;
+  font-size: 26px;
+  width: 200px;
+}
+
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navItem {
+  cursor: pointer;
+  padding-bottom: 7px;
+  margin-top: 9px;
+  border-bottom: 2px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a.active {
+  color: orange;
+}
+
+.navItem:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.navItem:hover a {
+  color: yellow;
+}
+
+.cart {
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  cursor: pointer;
+}
+
+.cart a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: -3px;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart img {
+  width: 35px;
+}
+
+.login {
+  position: absolute;
+  top: 28px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.user {
+  position: absolute;
+  top: 18px;
+  right: 50px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.menuContainer {
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 9;
+  width: 120px;
+  height: 100px;
+  background: #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.menuItem {
+  padding: 10px 10px 0px;
+}
+
+.menuItem:hover {
+  color: yellow;
+}
+
+.user:hover .menuContainer .menu {
+  display: block;
+}

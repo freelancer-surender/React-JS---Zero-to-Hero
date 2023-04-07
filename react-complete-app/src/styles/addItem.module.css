@@ -1,0 +1,51 @@
+.addItemBtn {
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #2a2a2a;
+  background-color: #fff;
+  color: #2a2a2a;
+  width: 100%;
+  cursor: pointer;
+}
+
+.addItemBtn:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.addItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.minusBtn, .plusBtn {
+  width: 64px;
+  height: 50px;
+  border-radius: 5px;
+  height: 35px;
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.minusBtn {
+  background-color: red;
+}
+
+.plusBtn {
+  background-color: green;
+}
+
+.qty {
+  width: 60px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f1f1f1;
+  padding: 5px 0px;
+  border-radius: 3px;
+}

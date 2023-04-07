@@ -1,0 +1,42 @@
+.bannerItem {
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.desc {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  font-size: 20px;
+}
+
+.cta {
+  position: absolute;
+  top: 275px;
+  left: 50px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.cta a {
+    color: #000;
+}
+
+.cta:hover {
+  background-color: #000;
+}
+
+.cta:hover a {
+    color: #fff;
+}
