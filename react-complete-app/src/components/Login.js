@@ -28,20 +28,26 @@ const Login = () => {
   const login = () => {
     let uname = unameRef.current.value;
     let pword = pwordRef.current.value;
-    axios
-      .post("http://localhost:5000/freshkart/login", {
-        uname,
-        pword,
-      })
-      .then(
-        (res) => {
-          setIsLoggedIn(true);
-          navigate("/home");
-        },
-        (err) => {
-            toast.error("Invalid Credentials", {theme: "colored", autoClose: 3000});
-        }
-      );
+    // axios
+    //   .post("http://localhost:5000/freshkart/login", {
+    //     uname,
+    //     pword,
+    //   })
+    //   .then(
+    //     (res) => {
+    //       setIsLoggedIn(true);
+    //       navigate("/home");
+    //     },
+    //     (err) => {
+    //         toast.error("Invalid Credentials", {theme: "colored", autoClose: 3000});
+    //     }
+    //   );
+    if (uname === "harry" && pword === "potter") {
+      setIsLoggedIn(true);
+      navigate("/home");
+    } else {
+      toast.error("Invalid Credentials", { theme: "colored", autoClose: 3000 });
+    }
   };
 
   const validateForm = () => {
