@@ -12,6 +12,7 @@ function App() {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
+        margin:10px
       }}
     >
       <div
